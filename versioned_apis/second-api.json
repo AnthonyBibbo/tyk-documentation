@@ -1,0 +1,32 @@
+{
+        "components": {},
+        "info": {
+            "title": "JsonPlaceholder",
+            "version": "1.0.0"
+        },
+        "openapi": "3.0.3",
+        "paths": {},
+        "servers": [
+            {
+                "url": "http://127.0.0.1:8080/second-api/"
+            }
+        ],
+        "x-tyk-api-gateway": {
+            "info": {
+                "id": "864167a72c9a4c02be1b7cf95620c5db",
+                "name": "JsonPlaceholder",
+                "state": {
+                    "active": true
+                }
+            },
+            "upstream": {
+                "url": "https://jsonplaceholder.typicode.com"
+            },
+            "server": {
+                "listenPath": {
+                    "value": "/second-api/-864167a72c9a4c02be1b7cf95620c5db",
+                    "strip": true
+                }
+            }
+        }
+}
